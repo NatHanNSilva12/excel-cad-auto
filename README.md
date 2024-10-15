@@ -10,18 +10,27 @@ O Imovi Excel App é uma aplicação de gestão de imóveis feita em Python, uti
 ## Tecnologias Utilizadas:
 
 ° Python: Linguagem de programação principal utilizada.
+
 ° CustomTkinter: Biblioteca para criar a interface gráfica personalizada e moderna.
+
 ° Openpyxl: Biblioteca para manipulação e leitura de arquivos Excel (.xlsx).
+
 ° Matplotlib: Usada para geração de gráficos para cálculo de comissões.
 
 ## Funcionalidades:
 
 ° Cadastro de Clientes e Imóveis: Os usuários podem inserir dados como nome do cliente, contato, código do imóvel, endereço, valor do imóvel, observações, e status do imóvel.
+
 ° Status do Imóvel: Existem três status para cada imóvel, sendo eles:
+
 ° Vendido: Aparece em verde no arquivo Excel.
+
 ° Encerrado: Aparece em vermelho no arquivo Excel.
+
 ° Em processo: Aparece em amarelo no arquivo Excel.
+
 ° Cálculo de Comissão: Através de um botão, o sistema exibe um gráfico que mostra o nome do cliente e a comissão calculada (6% sobre o valor do imóvel vendido).
+
 ° Exportação para Excel: Todos os dados são salvos e organizados automaticamente em um arquivo Excel na área de trabalho do usuário.
 
 ## Instalação
